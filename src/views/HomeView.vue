@@ -14,7 +14,7 @@ const handleSubmit = async () => {
     return
   }
 
-  const res = await fetch("https://contact-worker.fiveword2.workers.dev/", {
+  const res = await fetch("https://contact-worker.fiveword2.workers.dev", {
     method: "POST",
     headers: { "Content-Type": "application/json" },
     body: JSON.stringify({
